@@ -1,0 +1,9 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "from": true,
+        "p": true,
+        "lines": true,
+        "print('---')": true,
+        "for": true
+    }
+}
