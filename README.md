@@ -1,5 +1,7 @@
 This year's coursework asks you to build a metamodel on top of a primary trading signal that we provide for 11 instruments across three asset classes. The metamodel's job is to predict, for each primary signal, the probability that following it would be profitable under a triple-barrier exit rule.
 
+There are two notebooks, 'metamodel1' which is for any generic instrument, and 'rb1s_metamodel_feature_engineering' which is a more specific metamodel for RBOB gasoline, which takes into account crack spreads, seasonality of gas, volatility etc.
+
 ## The Universe
 You are provided with the primary model's daily signals (-1, 0, +1) for the following 11 instruments.
 
